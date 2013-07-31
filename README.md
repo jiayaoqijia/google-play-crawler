@@ -23,7 +23,7 @@ Take a look at code, it is not that sophisticated..
 
 ## Requirements
 
-### java 7
+### Java 7
     download from http://www.oracle.com/technetwork/java/javase/downloads/jdk7-downloads-1880260.html
     configure as http://blog.csdn.net/yang_hui1986527/article/details/6677450
 ### Command
