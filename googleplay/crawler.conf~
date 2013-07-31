@@ -3,7 +3,7 @@ email = aliceisnotbob@gmail.com
 password = jiayaoqi
 androidid = 32a35291a2ac0156
 # security token only needed for "usegcm" option
-securitytoken = 33f633f0cec1fbab
+securitytoken = xxxxxxxx
 #can be en-EN, en-US, tr-TR, fr-FR... (default : en-EN)
 localization=en-EN
 
