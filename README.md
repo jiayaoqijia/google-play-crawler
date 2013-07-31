@@ -21,58 +21,14 @@ This project is available thanks to this project : https://github.com/egirault/g
 
 Take a look at code, it is not that sophisticated..
 
-## Building and running
+## Requirements
 
-###SBT
-
-Make sure you hava protoc installed (version 2.5!).
-On OSX:
+### java 7
+    download from http://www.oracle.com/technetwork/java/javase/downloads/jdk7-downloads-1880260.html
+    configure as http://blog.csdn.net/yang_hui1986527/article/details/6677450
+### Command
 ```
-brew install protobuf
-```
-
-Ubuntu/Debian:
-```
-sudo apt-get install protobuf-compiler libprotobuf-java
-```
-
-Install SBT:
-http://www.scala-sbt.org/release/docs/Getting-Started/Setup.html
-
-To build:
-```
-sbt assembly
-```
-Note: This will generate the protobuf java files and compile them as part of the project.
-
-###Maven
-
-Install Maven 3 & protobuf compiler (version 2.5!)
-```
-sudo apt-get install maven protobuf-compiler libprotobuf-java
-```
-And build:
-```
-mvn package -Dmaven.test.skip=true
-```
-
-This will ignore the tests and pack for you. If you want to run tests, you need to edit login.conf with your google account credentials.
-
-
-## Usage
-
-### Maven Reference
-```
-<dependency>
-    <groupId>com.akdeniz</groupId>
-	<artifactId>googleplaycrawler</artifactId>
-	<version>0.2</version>
-</dependency>
-
-<repository>
-	<id>github.release.repo</id>
-	<url>https://raw.github.com/Akdeniz/akdeniz-repo/master/repo/releases/</url>
-</repository>
+python crawl.py 
 ```
 
 ### General
